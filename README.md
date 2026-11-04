@@ -1,17 +1,13 @@
-# 🤖 Assistente Virtual Inteligente -Jarvis
+# 🤖 Agente Virtual Inteligente -Jarvis
 
-Full-Duplex + Gemini + gTTS + Orquestrador de Tools + Memória Persistente
+- Full-Duplex + Gemini + gTTS + Orquestrador de Tools + Memória Persistente
+- Assistente virtual completo construído com Python, OpenAI e GEMINI e recursos de reconhecimento de voz.
 
-Assistente virtual completo construído com Python, OpenAI e GEMINI e recursos de reconhecimento de voz.
-
-Assistente de voz em Python com suporte a **OpenAI** e **Google Gemini**, conversação **Full-Duplex** (permite interromper a fala do assistente), **memória persistente (SQLite)** e **ferramentas integradas (Tools)**.
-## 🎯 Como Usar
-
-### Comandos Básicos (Todas as Versões)
-
-- Fale naturalmente com o JARVIS
-- Diga "sair", "tchau" ou "adeus" para encerrar
-- O JARVIS responde a qualquer pergunta via LLM escolhida
+## 🎯 Como Usar - Implantação resumida
+- Clonar o repositório
+- Criar ambiente virtual Python e instalar requirements.txt
+- Criar um arquivo .env com a sua OPENAI_API_KEY
+- Executar a versão desejada (python main_v4.py para a mais completa)
 
 ### Recursos Específicos v4
 
@@ -22,10 +18,7 @@ Assistente de voz em Python com suporte a **OpenAI** e **Google Gemini**, conver
 - **Arquivos:** "Crie um arquivo teste.txt"
 
 ---
-
-
 Cada versão mantém as funcionalidades da anterior e adiciona novas capacidades.
-
 ---
 
 ## 📚 Estrutura do Projeto
@@ -59,7 +52,7 @@ jarvis-tutorial/
 
 ### OpenAI ou GEMINI (Obrigatória)
 
-1. Acesse: https://platform.openai.com/
+1. Acesse: https://platform.openai.com/   ou  https://aistudio.google.com/api-keys
 2. Crie uma conta
 3. Vá em "API Keys"
 4. Crie uma nova chave
@@ -111,22 +104,8 @@ pip install pyaudio
 - Ajuste o `PAUSA_SILENCIO` no código
 
 ---
-
-## 🤝 Contribuindo
-
-Contribuições são bem-vindas! Sinta-se à vontade para:
-
-- Reportar bugs
-- Sugerir novas funcionalidades
-- Melhorar a documentação
-- Criar novas tools para a v4
-
----
-
 ## 📄 Licença
-
 Este projeto é para fins educacionais. Use livremente para aprender e criar seus próprios assistentes!
-
 ---
 
 ## 👨‍💻 Autor
